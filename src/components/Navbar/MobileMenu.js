@@ -49,9 +49,6 @@ const MobileMenu = ({ open, onClose, onOpen }) => {
                         </Button>
                     </ListItem>
                     <ListItem className={classes.btnContainer}>
-                        <LangSelector onClose={onClose} />
-                    </ListItem>
-                    <ListItem className={classes.btnContainer}>
                         <DarkModeSwitcher onClose={onClose} />
                     </ListItem>
                     <Divider />

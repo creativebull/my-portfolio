@@ -1,56 +1,89 @@
 const skillsList = [
-    { title: "React JS", value: 75 },
-    { title: "Next js", value: 80 },
-    { title: "Material UI", value: 80 },
-    { title: "Styled components", value: 80 },
-    { title: "Node JS ", value: 60 },
-    { title: "Express JS ", value: 70 },
-    { title: "Firebase", value: 70 },
+  { title: "React JS", value: 100 },
+  { title: "Angular", value: 100 },
+  { title: "Vue JS", value: 100 },
+  { title: "Typescript", value: 100 },
+  { title: "Redux ", value: 70 },
+  { title: "NgRx", value: 70 },
+  { title: "Node JS", value: 100 },
+  { title: "Next JS", value: 100 },
+  { title: "Nest JS", value: 100 },
+  { title: "GraphQL", value: 80 },
+  { title: "Python", value: 80 },
+  { title: "Django", value: 80 },
+  { title: "PHP", value: 80 },
+  { title: "Laravel", value: 80 },
+  { title: "Shopify", value: 80 },
+  { title: "WordPress", value: 80 },
+  { title: "MySQL", value: 60 },
+  { title: "PostgreSQL", value: 60 },
+  { title: "MongoDB", value: 60 },
+  { title: "AWS", value: 60 },
+  { title: "Firebase", value: 60 },
 ];
 const projectList = [
-    {
-        id: 1,
-        title: "Tunflix",
-        technologies: ["React JS", "Node JS", "MongoDB"],
-        backgroundImage:
-            "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
-        frontImage: "https://i.ibb.co/L0F7mKX/tunflix.png",
-    },
-    {
-        id: 2,
-        title: "Code Hub",
-        technologies: ["React JS"],
-        backgroundImage:
-            "https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.2102900112.1628985600",
-        frontImage: "https://i.ibb.co/zNMJFTW/Webp-net-resizeimage.png",
-    },
-    {
-        id: 3,
-        title: "Burpees.io",
-        technologies: ["React JS", "Node JS", "MongoDB"],
-        backgroundImage:
-            "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-        frontImage: "https://themes-backend.material-ui.com/wp-content/uploads/2021/05/01_preview.jpg",
-    },
+  {
+    id: 1,
+    title: "Exposure Analytics",
+    technologies: ["React JS", "Laravel"],
+    backgroundImage: "",
+    frontImage: "/project3.png",
+  },
+  {
+    id: 2,
+    title: "Box Dice",
+    technologies: ["React JS", "Laravel"],
+    backgroundImage: "",
+    frontImage: "/project4.png",
+  },
+  {
+    id: 3,
+    title: "Psychic World",
+    technologies: ["React JS", "Node.js", "Express", "MongoDB"],
+    backgroundImage: "",
+    frontImage: "/project2.png",
+  },
+  {
+    id: 4,
+    title: "Pinpoint",
+    technologies: ["Laravel", "MySQL"],
+    backgroundImage: "",
+    frontImage: "/project1.png",
+  },
 ];
 
 const experienceList = [
-    {
-        id: 0,
-        company: "Code Hub",
-        links: {
-            website: "https://www.codehub.tn",
-            facebook: "https://www.facebook.com/codehubtn/",
-            instagram: "https://www.instagram.com/codehub.coworking/",
-        },
+  {
+    id: 0,
+    company: "AT&T Software LLC",
+    links: {
+      website: "https://www.att.com/",
+      facebook: "https://www.facebook.com/people/Att-Software-LLC/",
+      instagram: "https://www.instagram.com/att/",
     },
-    {
-        id: 1,
-        company: "vapoter.tn",
-        links: {
-            instagram: "https://www.instagram.com/vapoter.tn/",
-        },
+  },
+  {
+    id: 1,
+    company: "Speed Commerce",
+    links: {
+      facebook: "https://www.facebook.com/speedcommerce/",
+      instagram: "https://www.instagram.com/speedcommerce/",
     },
+  },
+  {
+    id: 2,
+    company: "Lemonaid Health (Icebreaker Health Inc.)",
+    links: {
+      website: "https://www.lemonaidhealth.com/",
+      facebook: "https://www.facebook.com/lemonaidhealth/",
+      instagram: "https://www.instagram.com/lemonaid.health/",
+    },
+  },
+  {
+    id: 3,
+    company: "eTrigue Corp",
+    links: {},
+  },
 ];
 
 export { skillsList, projectList, experienceList };
